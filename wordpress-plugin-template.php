@@ -2,10 +2,10 @@
 /**
  * Plugin Name: WordPress Plugin Template
  * Version: 1.0.0
- * Plugin URI: http://www.hughlashbrooke.com/
+ * Plugin URI: https://lakshay.dev/
  * Description: This is your starter template for your next WordPress plugin.
  * Author: Hugh Lashbrooke
- * Author URI: http://www.hughlashbrooke.com/
+ * Author URI: https://lakshay.dev/
  * Requires at least: 4.0
  * Tested up to: 4.0
  *

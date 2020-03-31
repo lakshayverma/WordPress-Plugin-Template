@@ -395,7 +395,7 @@ msgid "WordPress Plugin Template"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.hughlashbrooke.com/"
+msgid "https://lakshay.dev/"
 msgstr ""
 
 #. Author of the plugin/theme
@@ -403,5 +403,5 @@ msgid "Hugh Lashbrooke"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://www.hughlashbrooke.com/"
+msgid "https://lakshay.dev/"
 msgstr ""

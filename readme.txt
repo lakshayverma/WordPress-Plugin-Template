@@ -1,6 +1,5 @@
 === WordPress Plugin Template ===
-Contributors: hlashbrooke
-Donate link: http://www.hughlashbrooke.com/donate
+Contributors: lakshayverma
 Tags: wordpress, plugin, template
 Requires at least: 3.9
 Tested up to: 4.0
