@@ -4,7 +4,7 @@
  * Version: 1.0.0
  * Plugin URI: https://lakshay.dev/
  * Description: This is your starter template for your next WordPress plugin.
- * Author: Hugh Lashbrooke
+ * Author: Lakshay Verma
  * Author URI: https://lakshay.dev/
  * Requires at least: 4.0
  * Tested up to: 4.0
@@ -13,7 +13,7 @@
  * Domain Path: /lang/
  *
  * @package WordPress
- * @author Hugh Lashbrooke
+ * @author Lakshay Verma
  * @since 1.0.0
  */
 
