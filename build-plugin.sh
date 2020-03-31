@@ -220,19 +220,19 @@ sed "s/$DEFAULT_SLUG/$SLUG/g" class-$SLUG-shortcode-helper.tmp > class-$SLUG-sho
 rm class-$SLUG-shortcode-helper.tmp
 
 
-mv class-$DEFAULT_SLUG-cors.php class-$SLUG-cors.php
+mv trait-$DEFAULT_SLUG-cors.php trait-$SLUG-cors.php
 
-cp class-$SLUG-cors.php class-$SLUG-cors.tmp
-sed "s/$DEFAULT_CLASS/$CLASS/g" class-$SLUG-cors.tmp > class-$SLUG-cors.php
-rm class-$SLUG-cors.tmp
+cp trait-$SLUG-cors.php trait-$SLUG-cors.tmp
+sed "s/$DEFAULT_CLASS/$CLASS/g" trait-$SLUG-cors.tmp > trait-$SLUG-cors.php
+rm trait-$SLUG-cors.tmp
 
-cp class-$SLUG-cors.php class-$SLUG-cors.tmp
-sed "s/$DEFAULT_TOKEN/$TOKEN/g" class-$SLUG-cors.tmp > class-$SLUG-cors.php
-rm class-$SLUG-cors.tmp
+cp trait-$SLUG-cors.php trait-$SLUG-cors.tmp
+sed "s/$DEFAULT_TOKEN/$TOKEN/g" trait-$SLUG-cors.tmp > trait-$SLUG-cors.php
+rm trait-$SLUG-cors.tmp
 
-cp class-$SLUG-cors.php class-$SLUG-cors.tmp
-sed "s/$DEFAULT_SLUG/$SLUG/g" class-$SLUG-cors.tmp > class-$SLUG-cors.php
-rm class-$SLUG-cors.tmp
+cp trait-$SLUG-cors.php trait-$SLUG-cors.tmp
+sed "s/$DEFAULT_SLUG/$SLUG/g" trait-$SLUG-cors.tmp > trait-$SLUG-cors.php
+rm trait-$SLUG-cors.tmp
 
 
 
