@@ -58,6 +58,15 @@ class WordPress_Plugin_Template {
 	public $_token; //phpcs:ignore
 
 	/**
+	 * Internationalizatino Token
+	 *
+	 * @var			string
+	 * @access		public
+	 * @since		1.0.0
+	 */
+	public $i18n;
+
+	/**
 	 * The main plugin file.
 	 *
 	 * @var     string
@@ -111,6 +120,7 @@ class WordPress_Plugin_Template {
 	public function __construct( $file = '', $version = '1.0.0' ) {
 		$this->_version = $version;
 		$this->_token   = 'wordpress_plugin_template';
+		$this->i18n     = $this->_token;
 
 		// Load plugin environment variables.
 		$this->file       = $file;
