@@ -113,6 +113,20 @@ cp class-$SLUG-settings.php class-$SLUG-settings.tmp
 sed "s/$DEFAULT_SLUG/$SLUG/g" class-$SLUG-settings.tmp > class-$SLUG-settings.php
 rm class-$SLUG-settings.tmp
 
+mv class-$DEFAULT_SLUG-page.php class-$SLUG-page.php
+
+cp class-$SLUG-page.php class-$SLUG-page.tmp
+sed "s/$DEFAULT_CLASS/$CLASS/g" class-$SLUG-page.tmp > class-$SLUG-page.php
+rm class-$SLUG-page.tmp
+
+cp class-$SLUG-page.php class-$SLUG-page.tmp
+sed "s/$DEFAULT_TOKEN/$TOKEN/g" class-$SLUG-page.tmp > class-$SLUG-page.php
+rm class-$SLUG-page.tmp
+
+cp class-$SLUG-page.php class-$SLUG-page.tmp
+sed "s/$DEFAULT_SLUG/$SLUG/g" class-$SLUG-page.tmp > class-$SLUG-page.php
+rm class-$SLUG-page.tmp
+
 
 cd lib
 mv class-$DEFAULT_SLUG-post-type.php class-$SLUG-post-type.php
@@ -158,6 +172,68 @@ rm class-$SLUG-admin-api.tmp
 cp class-$SLUG-admin-api.php class-$SLUG-admin-api.tmp
 sed "s/$DEFAULT_SLUG/$SLUG/g" class-$SLUG-admin-api.tmp > class-$SLUG-admin-api.php
 rm class-$SLUG-admin-api.tmp
+
+
+
+mv class-$DEFAULT_SLUG-general-helper.php class-$SLUG-general-helper.php
+
+cp class-$SLUG-general-helper.php class-$SLUG-general-helper.tmp
+sed "s/$DEFAULT_CLASS/$CLASS/g" class-$SLUG-general-helper.tmp > class-$SLUG-general-helper.php
+rm class-$SLUG-general-helper.tmp
+
+cp class-$SLUG-general-helper.php class-$SLUG-general-helper.tmp
+sed "s/$DEFAULT_TOKEN/$TOKEN/g" class-$SLUG-general-helper.tmp > class-$SLUG-general-helper.php
+rm class-$SLUG-general-helper.tmp
+
+cp class-$SLUG-general-helper.php class-$SLUG-general-helper.tmp
+sed "s/$DEFAULT_SLUG/$SLUG/g" class-$SLUG-general-helper.tmp > class-$SLUG-general-helper.php
+rm class-$SLUG-general-helper.tmp
+
+
+mv class-$DEFAULT_SLUG-post-meta-helper.php class-$SLUG-post-meta-helper.php
+
+cp class-$SLUG-post-meta-helper.php class-$SLUG-post-meta-helper.tmp
+sed "s/$DEFAULT_CLASS/$CLASS/g" class-$SLUG-post-meta-helper.tmp > class-$SLUG-post-meta-helper.php
+rm class-$SLUG-post-meta-helper.tmp
+
+cp class-$SLUG-post-meta-helper.php class-$SLUG-post-meta-helper.tmp
+sed "s/$DEFAULT_TOKEN/$TOKEN/g" class-$SLUG-post-meta-helper.tmp > class-$SLUG-post-meta-helper.php
+rm class-$SLUG-post-meta-helper.tmp
+
+cp class-$SLUG-post-meta-helper.php class-$SLUG-post-meta-helper.tmp
+sed "s/$DEFAULT_SLUG/$SLUG/g" class-$SLUG-post-meta-helper.tmp > class-$SLUG-post-meta-helper.php
+rm class-$SLUG-post-meta-helper.tmp
+
+
+mv class-$DEFAULT_SLUG-shortcode-helper.php class-$SLUG-shortcode-helper.php
+
+cp class-$SLUG-shortcode-helper.php class-$SLUG-shortcode-helper.tmp
+sed "s/$DEFAULT_CLASS/$CLASS/g" class-$SLUG-shortcode-helper.tmp > class-$SLUG-shortcode-helper.php
+rm class-$SLUG-shortcode-helper.tmp
+
+cp class-$SLUG-shortcode-helper.php class-$SLUG-shortcode-helper.tmp
+sed "s/$DEFAULT_TOKEN/$TOKEN/g" class-$SLUG-shortcode-helper.tmp > class-$SLUG-shortcode-helper.php
+rm class-$SLUG-shortcode-helper.tmp
+
+cp class-$SLUG-shortcode-helper.php class-$SLUG-shortcode-helper.tmp
+sed "s/$DEFAULT_SLUG/$SLUG/g" class-$SLUG-shortcode-helper.tmp > class-$SLUG-shortcode-helper.php
+rm class-$SLUG-shortcode-helper.tmp
+
+
+mv class-$DEFAULT_SLUG-cors.php class-$SLUG-cors.php
+
+cp class-$SLUG-cors.php class-$SLUG-cors.tmp
+sed "s/$DEFAULT_CLASS/$CLASS/g" class-$SLUG-cors.tmp > class-$SLUG-cors.php
+rm class-$SLUG-cors.tmp
+
+cp class-$SLUG-cors.php class-$SLUG-cors.tmp
+sed "s/$DEFAULT_TOKEN/$TOKEN/g" class-$SLUG-cors.tmp > class-$SLUG-cors.php
+rm class-$SLUG-cors.tmp
+
+cp class-$SLUG-cors.php class-$SLUG-cors.tmp
+sed "s/$DEFAULT_SLUG/$SLUG/g" class-$SLUG-cors.tmp > class-$SLUG-cors.php
+rm class-$SLUG-cors.tmp
+
 
 
 if [ "$NEWREPO" == "y" ]; then

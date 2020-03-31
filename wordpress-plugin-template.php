@@ -24,11 +24,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Load plugin class files.
 require_once 'includes/class-wordpress-plugin-template.php';
 require_once 'includes/class-wordpress-plugin-template-settings.php';
+require_once 'includes/class-wordpress-plugin-template-page.php';
 
 // Load plugin libraries.
 require_once 'includes/lib/class-wordpress-plugin-template-admin-api.php';
 require_once 'includes/lib/class-wordpress-plugin-template-post-type.php';
 require_once 'includes/lib/class-wordpress-plugin-template-taxonomy.php';
+require_once 'includes/lib/class-wordpress-plugin-template-general-helper.php';
+require_once 'includes/lib/class-wordpress-plugin-template-shortcode-helper.php';
+require_once 'includes/lib/trait-wordpress-plugin-template-cors.php';
 
 /**
  * Returns the main instance of WordPress_Plugin_Template to prevent the need to use globals.
