@@ -58,8 +58,8 @@ cp $SLUG.php $SLUG.tmp
 sed "s/$DEFAULT_CLASS/$CLASS/g" $SLUG.tmp > $SLUG.php
 rm $SLUG.tmp
 
-cp readme.txt readme.tmp
-sed "s/$DEFAULT_NAME/$NAME/g" readme.tmp > readme.txt
+cp readme.plugin.md readme.tmp
+sed "s/$DEFAULT_NAME/$NAME/g" readme.tmp > README.md
 rm readme.tmp
 
 
