@@ -29,7 +29,7 @@ class WordPress_Plugin_Template_General_Helper {
     }
 }
 
-class WLK_Config {
+class WordPress_Plugin_Template_Config {
     const TAXONOMY_SLUG_PRODUCT = 'product';
     const TAXONOMY_SLUG_PRODUCT_CAT = 'product_cat';
     const TAXONOMY_SLUG_PRODUCT_TAG = 'product_tag';
